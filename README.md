@@ -9,6 +9,7 @@ How to run the project:
 3) Go to "src/main/java/org/aidar/assignment1/Client.java"
 4) Right-click the Client.java and click Run (with or without debugging)
 
+Roles:
 - "Meal" class is responsible for defining fields of our future product (Main/Side Dish, Drink)
 - "MealBuilder" interface is made for defining methods that our Concrete Builder will implement (our API)
 - "MealObjectBuilder" is responsible for Object representation of our Product
