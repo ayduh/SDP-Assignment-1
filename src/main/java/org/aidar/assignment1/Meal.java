@@ -1,6 +1,6 @@
 package org.aidar.assignment1;
 
-public class Meal {
+public class Meal{
     private final String main, side, drink;
     Meal(String main, String side, String drink){
         this.main = main;
