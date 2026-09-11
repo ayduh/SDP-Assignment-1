@@ -17,4 +17,6 @@ public class MealReceiptBuilder implements MealBuilder{
         sb.append("Drink Dish: ").append(drink).append("\n");
         return this;
     }
+
+    public String getResult(){return sb.toString();}
 }
