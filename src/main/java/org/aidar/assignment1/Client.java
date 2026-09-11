@@ -8,9 +8,9 @@ public class Client{
         dr.makeMeatMeal(ob);
         Meal meatMeal = ob.getResult();
 
-        MealReceiptBuilder receiptBuilder = new MealReceiptBuilder();
-        dr.makeMeatMeal(ob);
-        String mealReceipt = receiptBuilder.getResult();
+        MealReceiptBuilder rb = new MealReceiptBuilder();
+        dr.makeMeatMeal(rb);
+        String mealReceipt = rb.getResult();
         System.out.println(mealReceipt);
     }
 }

@@ -9,6 +9,6 @@ public class Meal{
     }
 
     @Override public String toString(){
-        return "Computer[" + main + ", " + side + ", " + drink +"]";
+        return "Meal[" + main + ", " + side + ", " + drink +"]";
     }
 }
