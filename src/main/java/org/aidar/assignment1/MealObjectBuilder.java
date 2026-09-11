@@ -22,7 +22,7 @@ public class MealObjectBuilder implements MealBuilder{
     
     public Meal getResult(){
         if(main == null && side == null && drink == null){
-            throw new IllegalArgumentException("At least 1 order is required");
+            throw new IllegalStateException("At least 1 order is required");
         }
         return new Meal(main, side, drink);
     }
